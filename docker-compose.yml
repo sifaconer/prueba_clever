@@ -1,0 +1,9 @@
+version: "3"
+services:
+  api:
+    container_name: "api"
+    build: . 
+    environment:
+      API_CURRENTLAYER_KEY:
+    ports:
+      - 8182:8182
